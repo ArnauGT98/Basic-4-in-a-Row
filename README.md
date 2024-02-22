@@ -6,8 +6,10 @@ This was my first game programmed fully in Python-3.
 
 <div align="center">
 <a href="https://github.com/ArnauGT98/Basic-4-in-a-Row/tree/main/Fancy-Logo">
-<img src="Fancy-Logo/LOGO1.png" alt="Logo" width="270" height="200">
+<img src="Fancy-Logo/LOGO1.png" alt="Logo" width="370" height="300">
 </a>
+</div>
+</div>
 
 ## Content structured as follows:
 - Sections: All the folders needed for playing to the classic game Connect-4.
