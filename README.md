@@ -13,4 +13,4 @@ This was my first game programmed fully in Python-3.
     - [Blank](asdasd): Contains the blank files that I use to code the game. 
     - [Solution](asdasd): Contains the solutions of the blank files. 
     - [Documentation](asdasd): Contains the documentation of the game. 
-    - [Images](ASASD): Contains the images that I use to the documentation.
+    - [Images](https://github.com/ArnauGT98/Basic-4-in-a-Row/tree/main/Images): Contains some AI artistic images - Source: Leonardo AI.XL.Model.- 
