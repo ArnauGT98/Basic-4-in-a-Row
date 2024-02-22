@@ -11,6 +11,6 @@ This was my first game programmed fully in Python-3.
     - [Code](asdasd): Contains a didactic example that I use to code this game and to check all functions and testings before start playing. 
     - [Tests](asdasd): Contains the tests that I use to check the game and the code. 
     - [Blank](asdasd): Contains the blank files that I use to code the game. 
-    - [Solutions](asdasd): Contains the solutions of the blank files. 
+    - [Solution](asdasd): Contains the solutions of the blank files. 
     - [Documentation](asdasd): Contains the documentation of the game. 
-    - [Images](asdasd): Contains the images that I use to the documentation.
+    - [Images](ASASD): Contains the images that I use to the documentation.
