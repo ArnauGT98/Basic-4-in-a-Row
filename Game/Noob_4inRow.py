@@ -1,5 +1,6 @@
 
 from IPython.display import clear_output
+from colorama import init, Fore
 
 # Define needed variables
 player = 1
@@ -31,16 +32,19 @@ def show_board(board):
     board : list of lists
         Represents the board with all the squares.
     """
+    # Initialize colorama
+    init()
+    
     # Print reference numbers at the top
     for i in range(len(board[0])):
-        print(i, end='  ')
+        print(Fore.MAGENTA + str(i+1), end='  ')
     print()  # Move to the next line after printing reference numbers
     
     # Print the rest of the board
     for row in board:
         print()
         for square in row:
-            print(square, end='  ')
+            print(Fore.MAGENTA + square, end='  ')
 
 def drop_piece(board, column, player):
     """Allows to drop a new piece onto the board and returns the updated board with the piece placed.
@@ -60,7 +64,7 @@ def drop_piece(board, column, player):
     # Verify if the column is full
     new_row = len(board) - 1
     if column >= len(board[0]):
-        print("[+] Error: This column is full!")
+        print("[+] Error: This row is not in this board!")
         
     for i in range(len(board)):
         if board[i][column - 1] == char1 or board[i][column - 1] == char2:
@@ -69,7 +73,7 @@ def drop_piece(board, column, player):
     
     # Restrictions
     if new_row < 0 or new_row > len(board):
-        print("[+] Error: This row is not in this board!")
+        print("[+] Error:  This column is full!")
     else:
         # Place the piece on the board
         if player == 1:
@@ -255,7 +259,7 @@ else:
         print("\n\n")
         column = int(input("[+] Inserting a new chip in column: "))
         print("\n\n")
-        if column >= len(board[0]):
+        if column >= len(board[0])+1:
             print("[+] Error: Invalid column, this board doesn't have that many columns!"); print("\n\n");
             print("[+] Error: The maximum number of columns is:", len(board[0]))
             continue  # Retry the turn if the column is invalid
