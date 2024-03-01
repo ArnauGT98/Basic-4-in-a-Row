@@ -129,7 +129,7 @@ def check_columns(board, player):
                 print("\n[+] ... "), print("[+] Congratulations, you won with four in a row vertically!!!"), print("The winner is:", color )
                 return True
 
-#def check_right_diagonal(board, player):
+def check_right_diagonal(board, player):
     """Checks if there are four consecutive pieces of the same player in a right diagonal and prints a message if so.
     
     Parameters:
@@ -159,7 +159,9 @@ def check_columns(board, player):
                 print("\n\n[+] ... "), print("[+] Congratulations, you won with four in a row in a right diagonal!!"), print("[+] Winner: 4", color)
                 return True
 
-#Gdef check_right_diagonal(board, player):
+    
+
+def check_right_diagonal(board, player):
     """Checks if there are four consecutive pieces of the same player in a right diagonal and prints a message if so.
     
     Parameters:
