@@ -1,7 +1,7 @@
 
 # Basic-4-in-a-Row
 
-This is a repository containing the source code for the Connnect 4 game coded as 'Noob Level'
+This is a repository containing the source code for the classic game named Connnect 4 or otherwise 4 in row game coded as 'Noob Level'
 This was my first game programmed fully in Python-3.
 
 <div align="center">
@@ -11,8 +11,8 @@ This was my first game programmed fully in Python-3.
 </div>
 </div>
 
-## Content structured as follows:
-- Sections: All the folders needed for playing to the classic game Connect-4.
+## Structure:
+- **6 Sections**: All the folders needed for playing to the classic game Connect-4.
     - [Game](): Contains the source code that you can run and start playing with all implemented. 
     - [Documentation](): Contains the documentation of the game. 
     - [Tests](https://github.com/ArnauGT98/Basic-4-in-a-Row/tree/main/Tests): Contains some previous tests that I use to check that the game and their implemented functions works allright.
